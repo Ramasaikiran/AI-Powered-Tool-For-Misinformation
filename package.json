@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -18,11 +19,4 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "start": "vite preview --port $PORT"
-}
-
 }
